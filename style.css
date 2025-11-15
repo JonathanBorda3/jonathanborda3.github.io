@@ -1,0 +1,106 @@
+/* Base Reset and Font Setup */
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    background-color: #f4f4f9; /* Soft neutral background */
+    color: #1c1c1c; /* Slightly softened black for text */
+    line-height: 1.6;
+  }
+  
+  /* Header Styling */
+  header {
+    background-color: #2c3e50; /* Deep slate blue */
+    color: #ffffff;
+    text-align: center;
+    padding: 2rem 1rem;
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+  }
+  
+  header p {
+    font-size: 1.2rem;
+    opacity: 0.9;
+  }
+  
+  /* Navigation Bar */
+  nav {
+    background-color: #34495e; /* Darker gray-blue */
+    padding: 0.8rem 1rem;
+    display: flex;
+    justify-content: center;
+    gap: 1.2rem;
+  }
+  
+  nav a {
+    color: #ecf0f1; /* Soft white */
+    text-decoration: none;
+    font-weight: 500;
+  }
+  
+  nav a:hover {
+    color: #1abc9c; /* Turquoise accent */
+  }
+  
+  /* Main Content */
+  main {
+    max-width: 900px;
+    margin: 2rem auto;
+    padding: 0 1.5rem;
+  }
+  
+  section {
+    margin-bottom: 3rem;
+  }
+  
+  section h2 {
+    border-bottom: 2px solid #bdc3c7;
+    padding-bottom: 0.3rem;
+    color: #2c3e50;
+  }
+  
+  ul {
+    list-style-type: square;
+    padding-left: 1.2rem;
+  }
+  
+  li {
+    margin-bottom: 0.5rem;
+  }
+  
+  /* Footer */
+  footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #ecf0f1;
+    font-size: 0.9rem;
+    color: #7f8c8d;
+  } 
+  
+  /* Links */
+  a {
+    color: #2980b9;
+  }
+  
+  a:hover {
+    color: #1abc9c;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 600px) {
+    nav {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    header h1 {
+      font-size: 2rem;
+    }
+  
+    main {
+      padding: 0 1rem;
+    }
+  }
+  
